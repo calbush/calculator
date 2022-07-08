@@ -1,0 +1,35 @@
+* {
+    border-style: solid;
+    border-width: .5px;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: space-around;
+}
+#calc {
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    height: 550px;
+}
+
+#nums {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+button {
+    width: 50px;
+    height: 50px;
+}
+
+#buttons {
+    display:flex;
+}
+
+#display {
+    padding: 32px;
+    text-align: right;
+}
+
